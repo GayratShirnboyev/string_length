@@ -7,8 +7,11 @@
         length of string */
 
 // write your code here
+int func(text) {
+  int x = text.length;
+  return x;
+}
 
 void main() {
-  String x = "codeschool";
-  print(x.length);
+  print(func('Gayrat'));
 }
