@@ -6,6 +6,23 @@
     Returns:
         string
 */
+
+//String func(text) {
+//int r = 0;
+//String s = 's.length';
+//String a;
+//return s * r;}
+
+// write your code here
+//void main() {
+//print(func('code'));
+//}
 void main() {
-  // write your code here
+  String s;
+  s = 'codeschool';
+  int n;
+  n = s.length;
+  String ans;
+  ans = '*' * n;
+  print(ans);
 }
