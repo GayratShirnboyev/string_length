@@ -7,22 +7,25 @@
         string
 */
 
-//String func(text) {
-//int r = 0;
-//String s = 's.length';
-//String a;
-//return s * r;}
+String func(a) {
+  String x;
+  int d;
+  a = a.length;
+  String ans;
+  ans = '*' * a;
+  return ans;
+}
 
 // write your code here
-//void main() {
-//print(func('code'));
-//}
 void main() {
-  String s;
-  s = 'codeschool';
-  int n;
-  n = s.length;
-  String ans;
-  ans = '*' * n;
-  print(ans);
+  print(func('code'));
 }
+///  void main() {
+ //  String s;
+  // s = 'codeschool';
+  // int n;
+  // n = s.length;
+  // String ans;
+  // ans = '*' * n;
+  // print(ans);
+//   }
