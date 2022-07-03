@@ -6,6 +6,15 @@
     Returns:
         True or False
      */
+bool func(text) {
+  int x = text.length;
+  if (x % 2 == 0) {
+    return true;
+  }
+  return false;
+}
+// write your code here
+
 void main() {
-  // write your code here
+  print(func('codeschool'));
 }
