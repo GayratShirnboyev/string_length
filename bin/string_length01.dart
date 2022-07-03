@@ -6,6 +6,9 @@
     Returns:
         length of string */
 
+// write your code here
+
 void main() {
-  // write your code here
+  String x = "codeschool";
+  print(x.length);
 }
