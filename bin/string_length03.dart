@@ -7,6 +7,16 @@
     Returns:
         True or False
 */
+bool func(a, b) {
+  int x = a.length;
+  int y = b.length;
+  if (x == y) {
+    return true;
+  }
+  return false;
+}
+
+// write your code here
 void main() {
-  // write your code here
+  print(func('hello', 'codes'));
 }
