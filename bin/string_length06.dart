@@ -7,16 +7,17 @@
     Returns:
         shortest string
 */
-int func(s1, s2) {
+String func(String s1, String s2) {
+  String e;
   int x = s1.length;
   int y = s2.length;
   if (x < y) {
-    return x;
+    return s1;
   }
-  return y;
+  return s2;
 }
 // write your code here
 
 void main() {
-  print(func('codewed', 'school'));
+  print(func('Shirinboyev', 'Gayrat'));
 }
