@@ -7,6 +7,16 @@
     Returns:
         shortest string
 */
+int func(s1, s2) {
+  int x = s1.length;
+  int y = s2.length;
+  if (x < y) {
+    return x;
+  }
+  return y;
+}
+// write your code here
+
 void main() {
-  // write your code here
+  print(func('codewed', 'school'));
 }
