@@ -7,11 +7,11 @@
     Returns:
         total length of strings
 */
-String func(s1, s2) {
-  String f = "x + s";
-  String x = ('s1.length');
-  String s = ('s2.length');
-  return (s1 + s2);
+int func(s1, s2) {
+  int x = s1.length;
+  int s = s2.length;
+  int d = x + s;
+  return d;
 }
 
 // write your code here
