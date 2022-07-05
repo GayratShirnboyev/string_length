@@ -6,7 +6,11 @@
     Returns:
         bool: answer
 */
+String func(s) {
+  String c = 'Coce';
+}
+// write your code here
 
 void main() {
-  // write your code here
+  print(func([1]));
 }
