@@ -6,11 +6,11 @@
     Returns:
         bool: answer
 */
-String func(s) {
-  String c = 'Coce';
+String func(String s) {
+  return s.toUpperCase();
 }
 // write your code here
 
 void main() {
-  print(func([1]));
+  print(func('shirinboyev'));
 }
