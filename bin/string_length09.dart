@@ -7,6 +7,17 @@
     Returns:
         str: answer
      */
+String func(String s1, String s2) {
+  String o;
+  int e = s1.length;
+  int d = s2.length;
+  if (e > d) {
+    return s1 + s2;
+  }
+  return s1;
+}
+
+// write your code here
 void main() {
-  // write your code here
+  print(func('hello', 'salomlar'));
 }
