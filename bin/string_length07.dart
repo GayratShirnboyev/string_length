@@ -10,14 +10,13 @@
 String func(String s1, String s2) {
   int s = s1.length;
   int d = s2.length;
-  if (s % 2 == 1 && d % 2 == 1) {
+  if (s % 2 == 0 && d % 2 == 1) {
     return s1;
   }
-
   return s2;
 }
 
 // write your code here
 void main() {
-  (func('hello', 'salom'));
+  print(func('hello', 'salomlar'));
 }
