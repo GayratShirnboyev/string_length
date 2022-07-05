@@ -19,5 +19,5 @@ String func(String s1, String s2) {
 
 // write your code here
 void main() {
-  print(func('salomlar', 'hello'));
+  (func('hello', 'salom'));
 }
